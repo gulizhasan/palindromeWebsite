@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Website</title>
+    <link href="stylesheet.css" rel="stylesheet" />
+    <script type="text/javascript" src="palindrome.js"></script>
+  </head>
+
+  <body>
+    <article>
+      <form autocomplete="off">
+        <div class="form">
+          <div class="title">Palindrome Checker</div>
+
+          <div class="input-container ic1">
+            <input
+              type="text"
+              placeholder=" "
+              id="input"
+              class="input"
+              required
+            />
+
+            <div class="cut"></div>
+
+            <label for="input" class="placeholder">Enter some text</label>
+          </div>
+
+          <button type="button" id="btn" class="submit" onclick="palindrome();">
+            Check
+          </button>
+
+          <p id="js"></p>
+        </div>
+      </form>
+    </article>
+  </body>
+</html>
